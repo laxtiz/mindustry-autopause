@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.laxtiz.game'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://www.jitpack.io' }
+}
+
+dependencies {
+    compileOnly "com.github.Anuken.Arc:arc-core:$mindustry_version"
+    compileOnly "com.github.Anuken.Mindustry:core:$mindustry_version"
+}

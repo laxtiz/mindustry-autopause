@@ -1,0 +1,7 @@
+{
+  "name": "AutoPausePlugin",
+  "author": "laxtiz",
+  "main": "com.laxtiz.game.AutoPausePlugin",
+  "description": "Dedicated server will paused when here haven't any player.",
+  "version": 1.0
+}
